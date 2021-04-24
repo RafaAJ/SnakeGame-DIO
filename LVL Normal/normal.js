@@ -19,7 +19,6 @@ let food = { //Faz gerar a comida randomicamente pelo mapa
 }
 
 
-
 function CriarCobrinha() { //Criar cobrinha
     for(i=0; i< snake.length; i++){
         context.fillStyle = "green";
@@ -34,17 +33,17 @@ function drawFood(){
 
 
 function CriarBG(){ //Criar background
-    context.fillStyle = "lightgreen"; //Cor
+    context.fillStyle = "lightgreen" ; //Cor
     context.fillRect(0, 0, 16 * box, 16 * box); //Tamanho da caixa
 }
 
 document.addEventListener('keydown', update); //direciona a cobrinha para baixo
 
 function update(event){ //Define os comandos para controlar a cobrinha
-    if(event.keyCode == 37 && direction != "right") direction = "left";
-    if(event.keyCode == 38 && direction != "up") direction = "down";
-    if(event.keyCode == 39 && direction != "left") direction = "right";
-    if(event.keyCode == 40 && direction != "down") direction = "up";
+    if(event.keyCode == 65 && direction != "right") direction = "left";
+    if(event.keyCode == 87 && direction != "up") direction = "down";
+    if(event.keyCode == 68 && direction != "left") direction = "right";
+    if(event.keyCode == 83 && direction != "down") direction = "up";
 }
 
 
