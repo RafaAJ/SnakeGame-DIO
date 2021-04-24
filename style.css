@@ -1,0 +1,22 @@
+body {
+    align-items: center;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    color: blanchedalmond;
+    background-color: rgb(19, 19, 19);
+}
+
+.restart {
+    background-color: rgba(21, 200, 255, 0.74);
+    color: blanchedalmond;
+    border-radius: 10px;
+    padding: 1% 1%;
+    margin-top: 1%;
+    border: none;
+}
+
+.restart:hover {
+    cursor: pointer;
+    background-color: green;
+}
