@@ -7,11 +7,11 @@ O jogo é bem simples, e tem os comandos padrões.
 Objetivo do jogo: Cubrir todo o mapa com sua cobrinha.
 
 Comandos: 
-- Direcional para cima (move para cima)
-- Direcional para baixo (move para baixo)
-- Direcional para direita (move para direita)
-- Direcional para esquerda (move para esquerda)
+- Tecla W (move para cima)
+- Tecla S (move para baixo)
+- Tecla D (move para direita)
+- Tecla A (move para esquerda)
 
-Versão 1.1
+Versão 1.3.3
 
 Feito por: Rafael Arriente Julio

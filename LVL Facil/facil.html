@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="facil.css">
+    <script defer src="facil.js"></script> <!--O Defer faz o javascript ser carregado por ultimo-->
+    <title>Snake Game</title>
+</head>
+<body>
+
+    <h1 class="titulo">Snake Game</h1>
+    <div>
+        <p style="font-size: 20px;">Tecla W (move para cima) <br>
+            Tecla S (move para baixo) <br>
+            Tecla D (move para direita) <br>
+            Tecla A (move para esquerda)</p>
+    </div>
+
+    <canvas id="snake" width="512" height="512"></canvas> <!--Parte grafica do jogo-->
+    
+    <div>
+    <a href="facil.html"><button class="restart">Restart</button></a>
+        <h3 class="niveis">Niveis:</h3>
+        <a href="../LVL Facil/facil.html"><button class="lvl">Fácil</button></a>
+        <a href="../LVL Normal/normal.html"><button class="lvl">Normal</button></a>
+        <a href="../LVL Dificil/dificil.html"><button class="lvl">Dificil</button></a>
+    </div>
+
+</body>
+</html>

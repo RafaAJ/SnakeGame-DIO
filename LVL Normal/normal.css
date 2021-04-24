@@ -1,0 +1,50 @@
+body {
+    align-items: center;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    color: blanchedalmond;
+    background-color: rgb(19, 19, 19);
+}
+
+#snake {
+    border-radius: 5%;
+    border-style: solid;
+    border-width: 10px;
+    border-color: rgb(34, 194, 87);
+    border-spacing: 0ch;
+    background-image: url("Buildings\ Wallpaper\ 4k\ \(HOPEX\).jpg");
+}
+
+.restart {
+    background-color: rgba(21, 200, 255, 0.74);
+    color: blanchedalmond;
+    border-radius: 10px;
+    padding: 1% 1%;
+    margin-top: 1%;
+    border: none;
+}
+
+.restart:hover {
+    cursor: pointer;
+    background-color:coral;
+}
+
+.niveis {
+    margin-top: 0px;
+}
+
+.lvl {
+    background-color: rgba(21, 200, 255, 0.74);
+    color: blanchedalmond;
+    border-radius: 5px;
+    padding: 7px;
+    border: none;
+    margin-bottom: 40px;
+
+}
+
+.lvl:hover {
+    background-color: coral;
+    cursor: pointer;
+}
